@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  width: 1440px;
   background-color: #ffffff;
 }
 header {
@@ -39,7 +38,7 @@ ul {
     gap: 40px;
 }
 .menu-nav > .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;;
   font-weight: 800;
   font-size: 18px;
   text-transform: uppercase;
@@ -48,7 +47,8 @@ ul {
   width: 115px;
   height: 24px;
   padding-top: 24px;
-  padding-left: 156px
+  padding-left: 156px;
+  letter-spacing: 0.03em;
 }
 .logo span {
   color: #4d5ae5;
