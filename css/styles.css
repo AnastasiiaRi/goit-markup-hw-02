@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1440px;
+    background-color: #FFFFFF;
+}
+header {
+    width: 1440px;
+    height: 72px;
+    border-bottom: 1px solid #E7E9FC;
+}
+.section-1 ul, 
+.contacts ul,
+.section-2 ul,
+.section-3 ul,
+.menu-nav ul,
+.section-portfolio ul,
+.section-row-1 ul,
+.row-1 ul,
+.row-2 ul,
+.row-3 ul {
+    list-style-type:none;
+}
+.menu-nav a {
+    text-decoration: none;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+}
+.menu-nav > .logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.logo span {
+    color: #4D5AE5;
+}
+.menu-nav li {
+    display: inline;
+}
+.email {
+   font-weight: 400;
+   font-size: 16px;
+   color: #434455;
+   font-style: normal;
+   text-decoration: none;
+}
+.tel {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    font-style: normal;
+    text-decoration: none;
+}
+.hero-image {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+}
+h1 { 
+    color: #FFFFFF;
+    font-size: 56px;
+    width: 496px;
+    height: 120px;
+}
+.order-service {
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #4D5AE5;
+    width: 169px;
+    height: 56px;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.section-1 h2 {
+    display: none;
+}
+.section-3 p,
+.section-1 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42
+}
+footer {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+}
+footer a {
+    text-decoration: none;
+    color: #F4F4FD;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #F4F4FD;
+}
+.section-portfolio h2 {
+    display: none;
+}
+.web-site,
+.app,
+.design,
+.marketing {
+background-color: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+color: #4D5AE5;
+font-weight: 500;
+font-size: 16px;
+}
+.section-portfolio button:active,
+.all {
+    background-color: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.row-1 h2,
+.row-2 h2,
+.row-3 h2 {
+    display: none;
+}
+.row-1,
+.row-2,
+.row-3 {
+    border: 1px solid #E7E9FC;
+}
+.row-1 p,
+.row-2 p,
+.row-3 p {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+}
