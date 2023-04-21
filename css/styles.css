@@ -3,6 +3,8 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+:root {
+}
 header {
   width: 1440px;
   height: 72px;
@@ -31,18 +33,8 @@ header {
 .logo-col {
   color: #2E2F42;;
 }
-.menu {
+.list {
   list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  width: 261px;
-  height: 24px;
-  padding-top: 24px;
-  padding-left: 347px;
-  display: flex;
-  gap: 40px;
 }
 .studio,
 .portfolio,
