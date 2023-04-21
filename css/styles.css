@@ -1,6 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
+  color: #434455;
+}
+:root {
   --brand-color: #434455;
 }
 header {
