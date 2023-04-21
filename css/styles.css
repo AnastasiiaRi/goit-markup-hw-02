@@ -126,16 +126,20 @@ header {
 .logo-col-w {
     color: #f4f4fd;
 }
-.filter h2 {
+/* portfolio styles */
+.filter h1 {
   display: none;
 }
-.filter button {
+.filter-button {
   background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
   color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
 }
 .filter button:active,
 .filter button.active
