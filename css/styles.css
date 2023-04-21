@@ -8,36 +8,7 @@ header {
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
-ul {
-  list-style-type: none;
-}
-.menu-nav a {
-  text-decoration: none;
-  color: #2E2F42;
-  font-weight: 500;
-  font-size: 16px;
-}
-.studio:hover,
-.portfolio:hover,
-.contacts:hover {
-    position: absolute;
-    width: 48px;
-    height: 4px;
-    margin-top: 44px;
-    background-color: #404BBF;
-    border-radius: 2px;
-    color: #404BBF;
-    border-radius: 2px;
-}
-.menu-nav ul {
-    width: 261px;
-    height: 24px;
-    padding-top: 24px;
-    padding-left: 347px;
-    display: flex;
-    gap: 40px;
-}
-.menu-nav > .logo {
+.logo {
   font-family: "Raleway", sans-serif;;
   font-weight: 800;
   font-size: 18px;
@@ -49,9 +20,50 @@ ul {
   padding-top: 24px;
   padding-left: 156px;
   letter-spacing: 0.03em;
-}
-.logo span {
   color: #4d5ae5;
+}
+.logo:link,
+.studio:link,
+.portfolio:link,
+.contacts:link {
+  text-decoration:none;
+}
+.logo-col {
+  color: #2E2F42;;
+}
+.menu {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 261px;
+  height: 24px;
+  padding-top: 24px;
+  padding-left: 347px;
+  display: flex;
+  gap: 40px;
+}
+.studio,
+.portfolio,
+.contacts {
+  color: #2E2F42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.studio:hover,
+.studio:focus,
+.portfolio:hover,
+.portfolio:focus,
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+.contact {
+    font-style: normal;
+    list-style: none;
 }
 .email {
   width: 153px;
@@ -59,8 +71,8 @@ ul {
   padding-top: 24px;
   padding-left: 940px;
   font-size: 16px;
-  font-style: normal;
-  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .email:hover,
@@ -70,14 +82,15 @@ ul {
     color: #404BBF;
 }
 .tel {
-    width: 151px;
-height: 24px;
+  width: 151px;
+  height: 24px;
   padding-top: 24px;
   padding-left: 1133px;
   font-size: 16px;
-  font-style: normal;
   text-decoration: none;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .hero-image {
   background-color: #2e2f42;
