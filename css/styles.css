@@ -26,44 +26,30 @@ header {
 .list {
   list-style: none;
 }
-.studio,
-.portfolio,
-.contacts { 
+.menu { 
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.studio:hover,
-.studio:focus,
-.portfolio:hover,
-.portfolio:focus,
-.contacts:hover,
-.contacts:focus {
+.menu:hover,
+.menu:focus {
   color: #404bbf;
 }
 .contact {
     font-style: normal;
     list-style: none;
 }
-.email {
+.cont {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.email:hover,
-.email:focus,
-.tel:hover,
-.tel:focus {
+.cont:hover,
+.cont:focus {
     color: #404BBF;
-}
-.tel {
-  font-size: 16px;
-  color: #434455;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 .hero-image {
   background-color: #2e2f42
