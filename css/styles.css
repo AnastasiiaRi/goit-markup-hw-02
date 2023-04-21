@@ -21,26 +21,20 @@ header {
   text-decoration:none;
 }
 .logo-col {
-  color: #2E2F42;;
+  color: #2E2F42;
 }
 .list {
   list-style: none;
 }
-.studio,
-.portfolio,
-.contacts {
+.menu .link { 
   color: #2E2F42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.studio:hover,
-.studio:focus,
-.portfolio:hover,
-.portfolio:focus,
-.contacts:hover,
-.contacts:focus {
+.menu .link:hover,
+.menu .link:focus {
   color: #404bbf;
 }
 .contact {
@@ -48,10 +42,6 @@ header {
     list-style: none;
 }
 .email {
-  width: 153px;
-  height: 24px;
-  padding-top: 24px;
-  padding-left: 940px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -64,12 +54,7 @@ header {
     color: #404BBF;
 }
 .tel {
-  width: 151px;
-  height: 24px;
-  padding-top: 24px;
-  padding-left: 1133px;
   font-size: 16px;
-  text-decoration: none;
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
