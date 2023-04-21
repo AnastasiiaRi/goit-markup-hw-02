@@ -1,9 +1,10 @@
 body {
   font-family: "Roboto", sans-serif;
+}
+:root {  
   color: #434455;
   background-color: #ffffff;
 }
-:root {}
 header {
   border-bottom: 1px solid #e7e9fc;
 }
