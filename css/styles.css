@@ -1,9 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 :root {  
-  color: #434455;
-  background-color: #ffffff;
+  --brand-color: #434455;
 }
 header {
   border-bottom: 1px solid #e7e9fc;
@@ -45,7 +45,7 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--brand-color);
 }
 .cont:hover,
 .cont:focus {
@@ -81,7 +81,7 @@ header {
 .feature-text {
   line-height: 1.5;
   font-size: 16px;
-  color: #434455;
+  color: var(--brand-color);
   letter-spacing: 0.02em;
 }
 .feature {
@@ -161,5 +161,5 @@ header {
     font-size: 16p;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--brand-color);
 }
