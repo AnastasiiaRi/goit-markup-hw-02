@@ -6,28 +6,18 @@ body {
 :root {
 }
 header {
-  width: 1440px;
-  height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
 .logo {
-  font-family: "Raleway", sans-serif;;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   text-transform: uppercase;
   line-height: 1.17;
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  padding-top: 24px;
-  padding-left: 156px;
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
-.logo:link,
-.studio:link,
-.portfolio:link,
-.contacts:link {
+.link {
   text-decoration:none;
 }
 .logo-col {
