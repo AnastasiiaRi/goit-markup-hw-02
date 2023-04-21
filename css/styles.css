@@ -78,41 +78,53 @@ header {
 .section-1 h2 {
   display: none;
 }
-section-3 p,
-section-1 p {
-  font-weight: 400;
+.feature-text {
+  line-height: 1.5;
   font-size: 16px;
   color: #434455;
+  letter-spacing: 0.02em;
 }
-.feature-1 {
-  font-size: 36px;
-  color: #2e2f42;
-}
-h3 {
+.feature {
   font-size: 20px;
   color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-footer {
+.w_a_w_d {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.section-3 {
+    background-color: #F4F4FD;
+}
+.our-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.name {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.work-position {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
-}
-footer a {
-    width: 115px;
-height: 24px;
-  text-decoration: none;
   color: #f4f4fd;
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  text-transform: uppercase;
 }
-footer p {
-  font-size: 16px;
-  color: #f4f4fd;
-  width: 264px;
-height: 72px;
-position: absolute;
+.logo-col-w {
+    color: #f4f4fd;
 }
 .filter h2 {
   display: none;
