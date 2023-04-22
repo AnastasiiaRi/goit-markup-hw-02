@@ -5,6 +5,11 @@ body {
 }
 :root {
   --brand-color: #434455;
+  --brand-color-1: #4d5ae5;
+  --brand-color-2: #ffffff;
+  --brand-color-3: #2E2F42;
+  --brand-color-4: #404bbf;
+  --brand-color-5: #F4F4FD;
 }
 header {
   border-bottom: 1px solid #e7e9fc;
@@ -16,19 +21,19 @@ header {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: var(--brand-color-1);
 }
 .link {
   text-decoration:none;
 }
 .logo-col {
-  color: #2E2F42;
+  color: var(--brand-color-3);
 }
 .list {
   list-style: none;
 }
 .menu { 
-  color: #2e2f42;
+  color: var(--brand-color-3);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -36,7 +41,7 @@ header {
 }
 .menu:hover,
 .menu:focus {
-  color: #404bbf;
+  color: var(--brand-color-4);
 }
 .contact {
     font-style: normal;
@@ -50,13 +55,13 @@ header {
 }
 .cont:hover,
 .cont:focus {
-    color: #404BBF;
+    color: var(--brand-color-4);
 }
 .hero-image {
-  background-color: #2e2f42
+  background-color: var(--brand-color-3);
 }
 .tagline {
-  color: #ffffff;
+  color: var(--brand-color-2);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -65,8 +70,8 @@ header {
 .order-service {
   font-weight: 500;
   font-size: 16px;
-  background-color: #4d5ae5;
-  color: #ffffff;
+  background-color: var(--brand-color-1);
+  color: var(--brand-color-2);
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -74,7 +79,7 @@ header {
 }
 .order-service:hover,
 .order-service:focus {
-    background-color: #404BBF;
+    background-color: var(--brand-color-4);
 }
 .section-1 h2 {
   display: none;
@@ -87,7 +92,7 @@ header {
 }
 .feature {
   font-size: 20px;
-  color: #2e2f42;
+  color: var(--brand-color-3);
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -98,10 +103,10 @@ header {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--brand-color-3);
 }
 .sec {
-    background-color: #F4F4FD;
+    background-color: var(--brand-color-5);
 }
 .our-team {
     font-size: 36px;
@@ -109,14 +114,14 @@ header {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--brand-color-3);
 }
 .card {
-    background-color: #FFFFFF;
+    background-color: var(--brand-color-2);
 }
 .name {
     font-size: 20px;
-    color: #2e2f42;
+    color: var(--brand-color-3);
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -127,20 +132,20 @@ header {
     color: var(--brand-color);
 }
 .footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
+  background-color: var(--brand-color-3);
+  color: var(--brand-color-5);
 }
 .logo-col-w {
-    color: #f4f4fd;
+    color: var(--brand-color-5);
 }
 /* portfolio styles */
 .filter h1 {
   display: none;
 }
 .filter-button {
-  background-color: #f4f4fd;
+  background-color: var(--brand-color-5);
   font-family: "Roboto", sans-serif;
-  color: #4d5ae5;
+  color: var(--brand-color-1);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -149,15 +154,15 @@ header {
 }
 .filter-button:hover,
 .filter-button:focus {
-  background-color: #404bbf;
-  color: #FFFFFF;
+  background-color: var(--brand-color-4);
+  color: var(--brand-color-2);
 }
 .project-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--brand-color-3);
 }
 .type {
     font-size: 16p;
